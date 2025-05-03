@@ -1,0 +1,58 @@
+body{
+    background-color:#121212;
+    margin: 0;
+}
+.cabecalhochat{
+    width: 390px;
+    height: 70px;
+    margin: 0;
+}
+.cabecalho-chat{
+    margin: 0;
+    padding: 0;
+}
+.lista {
+    flex: 1;
+    overflow-y: auto;
+}
+  
+.pessoas {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #222;
+    transition: background 0.2s;
+}
+  
+.pessoas:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+.chat-info {
+    flex: 1;
+}
+  
+.chat-info h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.chat-info p {
+    color: #aaa;
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.chat-time {
+    font-size: 0.8rem;
+    color: #888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
