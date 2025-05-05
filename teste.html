@@ -1,50 +1,32 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
-    <div class="snapchat-container">
-        <header class="snap-header">
-          <h1><i class="fas fa-comment-dots"></i> Chats</h1>
-        </header>
-    
-        <main class="chat-list">
-          <div class="chat-item">
-            <img src="https://i.pravatar.cc/40?img=1" class="avatar" alt="Ana">
-            <div class="chat-content">
-              <h2>Ana Paula</h2>
-              <p>Você: até mais tarde!</p>
-            </div>
-            <span class="time">10:45</span>
-          </div>
-    
-          <div class="chat-item">
-            <img src="https://i.pravatar.cc/40?img=2" class="avatar" alt="João">
-            <div class="chat-content">
-              <h2>João Vitor</h2>
-              <p>Recebida há 2m</p>
-            </div>
-            <span class="time">10:43</span>
-          </div>
-    
-          <div class="chat-item">
-            <img src="https://i.pravatar.cc/40?img=3" class="avatar" alt="Camila">
-            <div class="chat-content">
-              <h2>Camila</h2>
-              <p>Nova conversa</p>
-            </div>
-            <span class="time">10:40</span>
-          </div>
-        </main>
-    
-        <footer class="snap-footer">
-          <i class="fas fa-home"></i>
-          <i class="fas fa-camera"></i>
-          <i class="fas fa-user-friends"></i>
-        </footer>
+
+<body class="bodyy">
+    <header class="headerr">SnapMood 📸</header>
+
+    <div class="container">
+        <h2>Como você está se sentindo hoje?</h2>
+        <div class="mood-buttons">
+            <button class="mood-button" onclick="selectMood('😄 Feliz')">😄 Feliz</button>
+            <button class="mood-button" onclick="selectMood('😢 Triste')">😢 Triste</button>
+            <button class="mood-button" onclick="selectMood('😡 Irritado')">😡 Irritado</button>
+            <button class="mood-button" onclick="selectMood('😴 Cansado')">😴 Cansado</button>
+            <button class="mood-button" onclick="selectMood('🤩 Animado')">🤩 Animado</button>
+        </div>
+
+        <div class="preview" id="preview">
+            Seu humor vai aparecer aqui...
+        </div>
     </div>
-    
+
+
 </body>
+
 </html>
